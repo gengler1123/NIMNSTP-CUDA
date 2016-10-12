@@ -1,0 +1,18 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Gary\Documents\GitHub\NIMNSTP-CUDA\EntireNetworkSpatial\EntireNetworkSpatial>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Gary\Documents\GitHub\NIMNSTP-CUDA\EntireNetworkSpatial\EntireNetworkSpatial\kernel.cu" 
+  kernel.cu
+C:/Users/Gary/Documents/GitHub/NIMNSTP-CUDA/EntireNetworkSpatial/EntireNetworkSpatial/kernel.cu(55): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+C:/Users/Gary/Documents/GitHub/NIMNSTP-CUDA/EntireNetworkSpatial/EntireNetworkSpatial/kernel.cu(120): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:/Users/Gary/Documents/GitHub/NIMNSTP-CUDA/EntireNetworkSpatial/EntireNetworkSpatial/kernel.cu(138): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:/Users/Gary/Documents/GitHub/NIMNSTP-CUDA/EntireNetworkSpatial/EntireNetworkSpatial/kernel.cu(150): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:/Users/Gary/Documents/GitHub/NIMNSTP-CUDA/EntireNetworkSpatial/EntireNetworkSpatial/kernel.cu(175): warning C4244: 'initializing' : conversion from 'const int' to 'float', possible loss of data
+C:/Users/Gary/Documents/GitHub/NIMNSTP-CUDA/EntireNetworkSpatial/EntireNetworkSpatial/kernel.cu(223): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:/Users/Gary/Documents/GitHub/NIMNSTP-CUDA/EntireNetworkSpatial/EntireNetworkSpatial/kernel.cu(224): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:/Users/Gary/Documents/GitHub/NIMNSTP-CUDA/EntireNetworkSpatial/EntireNetworkSpatial/kernel.cu(258): warning C4018: '<' : signed/unsigned mismatch
+C:/Users/Gary/Documents/GitHub/NIMNSTP-CUDA/EntireNetworkSpatial/EntireNetworkSpatial/kernel.cu(354): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+  EntireNetworkSpatial.vcxproj -> C:\Users\Gary\Documents\GitHub\NIMNSTP-CUDA\EntireNetworkSpatial\Debug\EntireNetworkSpatial.exe
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Gary\Documents\GitHub\NIMNSTP-CUDA\EntireNetworkSpatial\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+          2 file(s) copied.
